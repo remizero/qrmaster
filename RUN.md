@@ -1,0 +1,70 @@
+# HOW TO RUN
+
+## Run
+```python
+  python3 qrmaster.py --options options.json
+```
+
+
+## options.json file
+```json
+{
+  "project": {
+    "name": "empresa",
+    "content": {
+      "type": "url",
+      "url": "https://github.com/remizero/qrmaster"
+    },
+    "output": {
+      "formats": [ "svg", "png", "pdf" ],
+      "params": {
+        "scale": 10,
+        "border": 5,
+        "unit": "px",
+        "dark": "black"
+      }
+    },
+    "logo": {
+      "path" : "logo.png"
+    },
+    "frame": {
+      "margin": 10,
+      "text_height": 60,
+      "background_color": "white",
+      "border_color": "#005baa",
+      "border_width": 4,
+      "title": "Reglamento Interno",
+      "title_font_size": 16,
+      "title_font_family": "Arial",
+      "title_color": "#005baa",
+      "message": "Escanea para ver el documento.",
+      "message_font_size": 12,
+      "message_color": "#555"
+    },
+    "pdf": {
+      "title": "Código QR para visualizar el documento",
+      "title_font": "Arial",
+      "title_size": 16,
+      "title_style": "B",
+
+      "info_font": "Arial",
+      "info_size": 12,
+
+      "include_date": true,
+      "date_format": "%d/%m/%Y",
+
+      "document_name": "Reglamento Interno",
+
+      "image_path": "qr_logo_institucional_full.png",
+      "image_width": 200,
+      "image_x": 5,
+      "image_y": 60,
+
+      "output_name": "Print.pdf"
+    },
+    "art": {
+
+    }
+  }
+}
+```

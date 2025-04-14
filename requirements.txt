@@ -1,0 +1,7 @@
+segno
+pixels2svg
+argparse
+svgutils
+svgwrite
+cairosvg
+fpdf
