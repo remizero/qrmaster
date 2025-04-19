@@ -1,7 +1,8 @@
-segno
-pixels2svg
 argparse
-svgutils
-svgwrite
 cairosvg
 fpdf
+jsonschema
+pixels2svg
+segno
+svgutils
+svgwrite
