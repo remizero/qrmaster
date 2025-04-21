@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/qrmaster.exporters.rst:2
+msgid "qrmaster.exporters package"
+msgstr ""
+
+#: ../../source/qrmaster.exporters.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/qrmaster.exporters.rst:8
+msgid "qrmaster.exporters.pdf module"
+msgstr ""
+
+#: of qrmaster.exporters.pdf.PDF:1 qrmaster.exporters.svg.SVG:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: of qrmaster.exporters.pdf.PDF:1
+msgid ""
+"Handles the export of QR code-related information into a PDF format. "
+"Provides a method for exporting the final QR code and its associated "
+"content to a PDF file."
+msgstr ""
+
+#: of qrmaster.exporters.pdf.PDF.export:1
+msgid "Exports the generated QR code and associated content to a PDF file."
+msgstr ""
+
+#: of qrmaster.exporters.pdf.PDF.export:3
+msgid ""
+"This method takes the QR code and any additional content (like logo, "
+"frame, and information) and arranges them into a professionally formatted"
+" PDF file, which can then be saved to the specified output location."
+msgstr ""
+
+#: ../../source/qrmaster.exporters.rst:16
+msgid "qrmaster.exporters.svg module"
+msgstr ""
+
+#: of qrmaster.exporters.svg.SVG:1
+msgid ""
+"Handles the generation and export of QR code data in SVG format. Provides"
+" utilities for exporting SVG and converting it to PNG format."
+msgstr ""
+
+#: of qrmaster.exporters.svg.SVG.export:1
+msgid "Exports the QR code as an SVG file."
+msgstr ""
+
+#: of qrmaster.exporters.svg.SVG.export:3
+msgid ""
+"This method generates the SVG representation of the QR code and saves it "
+"to the defined location."
+msgstr ""
+
+#: of qrmaster.exporters.svg.SVG.toPng:1
+msgid "Converts an SVG file to PNG format."
+msgstr ""
+
+#: of qrmaster.exporters.svg.SVG.toPng:3
+msgid ""
+"@param input_svg_path: Path to the input SVG file. @param "
+"output_png_path: Path where the output PNG file will be saved. @param "
+"scale: A scaling factor to adjust the resolution of the output PNG "
+"(default is 1.0)."
+msgstr ""
+
+#: ../../source/qrmaster.exporters.rst:24
+msgid "Module contents"
+msgstr ""
+

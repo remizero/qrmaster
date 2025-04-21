@@ -1,0 +1,826 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/qrmaster.core.rst:2
+msgid "qrmaster.core package"
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:8
+msgid "qrmaster.core.cli module"
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:16
+msgid "qrmaster.core.commands module"
+msgstr ""
+
+#: of qrmaster.core.commands.Commands:1 qrmaster.core.config.Config:1
+#: qrmaster.core.logger.Logger:1 qrmaster.core.project.Project:1
+#: qrmaster.core.qr.QR:1 qrmaster.core.report.Report:1
+#: qrmaster.core.state.State:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: of qrmaster.core.commands.Commands:1
+msgid "Container class for the main commands of the QRMaster system."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands:3
+msgid ""
+"Each static method represents an action that can be executed from the "
+"CLI, such as generating a QR code, creating a technical report, "
+"validating the configuration, or managing log files."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.clearLog:1
+msgid "Clears the contents of the specified log file."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst
+msgid "Parameters"
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.clearLog:3
+msgid "Path to the log file to clear."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.generate:1
+msgid ""
+"Generates QR resources according to the parameters defined in the "
+"configuration file."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.generate:3
+msgid "Validated configuration instance of the project."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.report:1
+msgid "Generates a technical report in PDF format based on project resources."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.report:3
+msgid "Validated project configuration instance."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.validate:1
+msgid "Validates the structure and content of the JSON configuration file."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.validate:3
+msgid "Configuration instance to validate."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.viewLog:1
+msgid "Displays the contents of the specified log file."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.viewLog:3
+msgid "Path to the log file to display."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.viewLog:5
+msgid "Number of trailing lines to display (0 for the entire file)."
+msgstr ""
+
+#: of qrmaster.core.commands.Commands.viewLog:7
+msgid "Indicates whether to paginate the console output."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:24
+msgid "qrmaster.core.config module"
+msgstr ""
+
+#: of qrmaster.core.config.Config:1
+msgid ""
+"The Config class is responsible for managing the configuration of the QR "
+"code generation process. It loads, validates, and provides access to the "
+"configuration settings defined in a JSON file."
+msgstr ""
+
+#: of qrmaster.core.config.Config:4
+msgid ""
+"This class ensures that the configuration is properly structured and "
+"contains all necessary fields."
+msgstr ""
+
+#: of qrmaster.core.config.Config.get:1
+msgid ""
+"Retrieves the value associated with the provided key from the "
+"configuration."
+msgstr ""
+
+#: of qrmaster.core.config.Config.get:3
+msgid ""
+"The key of the configuration value to retrieve. If no key is provided, "
+"the entire configuration is returned."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst
+msgid "Returns"
+msgstr ""
+
+#: of qrmaster.core.config.Config.get:6
+msgid ""
+"The configuration value corresponding to the provided key, or the entire "
+"configuration if no key is given."
+msgstr ""
+
+#: of qrmaster.core.config.Config.load:1
+msgid "Loads the configuration from a specified file path."
+msgstr ""
+
+#: of qrmaster.core.config.Config.load:3
+msgid "The file path to the configuration file (typically a JSON file)."
+msgstr ""
+
+#: of qrmaster.core.config.Config.load:6
+msgid "The loaded configuration data."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst
+msgid "Return type"
+msgstr ""
+
+#: ../../source/qrmaster.core.rst
+msgid "Raises"
+msgstr ""
+
+#: of qrmaster.core.config.Config.load:9
+msgid "If the configuration file is not found at the given path."
+msgstr ""
+
+#: of qrmaster.core.config.Config.load:10
+msgid "If the configuration file is not a valid JSON file."
+msgstr ""
+
+#: of qrmaster.core.config.Config.validate:1
+msgid ""
+"Validates the loaded configuration to ensure it contains the necessary "
+"fields and follows the expected structure."
+msgstr ""
+
+#: of qrmaster.core.config.Config.validate:4
+msgid ""
+"This method checks that all required settings are present and properly "
+"formatted."
+msgstr ""
+
+#: of qrmaster.core.config.Config.validate:6
+msgid "If the configuration is missing required fields or contains invalid data."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:32
+msgid "qrmaster.core.logger module"
+msgstr ""
+
+#: of qrmaster.core.logger.Logger:1
+msgid ""
+"Logger class for managing the logging of system messages at different "
+"levels, such as information, warnings, errors, and success messages. It "
+"uses a log file to persist messages, allowing traceability of the "
+"execution flow."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.error:1
+msgid "Logs an error message to the log file."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.error:3
+msgid "Args: message (str): The error message to log."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.info:1
+msgid "Logs an informational message to the log file."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.info:3
+msgid "Args: message (str): The informational message to log."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.success:1
+msgid "Logs a success message to the log file."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.success:3
+msgid "Args: message (str): The success message to log."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.warning:1
+msgid "Logs a warning to the log file."
+msgstr ""
+
+#: of qrmaster.core.logger.Logger.warning:3
+msgid "Args: message (str): The warning message to log."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:40
+msgid "qrmaster.core.project module"
+msgstr ""
+
+#: of qrmaster.core.project.Project:1
+msgid ""
+"Manages the creation and configuration of the project workspace based on "
+"the provided configuration dictionary."
+msgstr ""
+
+#: of qrmaster.core.project.Project.createDir:1
+msgid ""
+"Creates the workspace directory for the project inside the user's home "
+"directory."
+msgstr ""
+
+#: of qrmaster.core.project.Project.createDir:3
+msgid "@return: The absolute path to the created workspace directory."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:48
+msgid "qrmaster.core.qr module"
+msgstr ""
+
+#: of qrmaster.core.qr.QR:1
+msgid ""
+"The QR class is responsible for generating QR codes based on various "
+"types of input data. This class provides methods to build different types"
+" of QR code data, such as URLs, emails, Wi-Fi information, geographical "
+"locations, vCards, MeCards, and EPC (Electronic Product Code). It also "
+"provides functionality to generate a QR code based on the data."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.buildData:1
+msgid ""
+"Builds the data to be embedded in the QR code based on the provided "
+"content."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.buildData:3
+msgid ""
+"This method takes a dictionary containing the content for the QR code and"
+" determines the appropriate data format to generate."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.buildData:6
+msgid "A dictionary containing the content to be encoded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.buildData:9
+msgid "The data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.emailData:1
+msgid "Builds data for an email QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.emailData:3
+msgid ""
+"This method takes a dictionary containing an email address and prepares "
+"it for embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.emailData:6
+msgid "A dictionary containing an email address to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.emailData:9
+msgid "The email data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.epcData:1
+msgid "Builds data for an EPC (Electronic Product Code) QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.epcData:3
+msgid ""
+"This method takes a dictionary containing EPC data and prepares it for "
+"embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.epcData:5
+msgid "A dictionary containing EPC data."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.epcData:8
+msgid "The EPC data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.generate:1
+msgid "Generates the QR code based on the provided data."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.generate:3
+msgid ""
+"This method triggers the process of generating a QR code using the "
+"provided content data. It coordinates the building of data and the final "
+"generation of the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.generate:6
+msgid ""
+"The method will call the necessary data-building functions based on the "
+"content type, and then generate the corresponding QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.generate:9
+msgid "This method is logged to track the QR code generation process."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.geoData:1
+msgid "Builds data for a geographical location QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.geoData:3
+msgid ""
+"This method takes a dictionary containing latitude and longitude and "
+"prepares it for embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.geoData:6
+msgid "A dictionary containing geographical coordinates (latitude, longitude)."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.geoData:9
+msgid "The geographical data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.mecardData:1
+msgid "Builds data for a MeCard QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.mecardData:3
+msgid ""
+"This method takes a dictionary containing MeCard information and prepares"
+" it for embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.mecardData:6
+msgid "A dictionary containing MeCard data (name, phone number, etc.)."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.mecardData:9
+msgid "The MeCard data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.urlData:1
+msgid "Builds data for a URL QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.urlData:3
+msgid ""
+"This method takes a dictionary containing a URL and prepares it for "
+"embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.urlData:5
+msgid "A dictionary containing a URL to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.urlData:8
+msgid "The URL data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.vcardData:1
+msgid "Builds data for a vCard QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.vcardData:3
+msgid ""
+"This method takes a dictionary containing vCard information and prepares "
+"it for embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.vcardData:6
+msgid "A dictionary containing vCard data (name, phone number, address, etc.)."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.vcardData:9
+msgid "The vCard data to be embedded in the QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.wifiData:1
+msgid "Builds data for a Wi-Fi QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.wifiData:3
+msgid ""
+"This method takes a dictionary containing Wi-Fi network information and "
+"prepares it for embedding in a QR code."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.wifiData:6
+msgid "A dictionary containing Wi-Fi network information (SSID, password, etc.)."
+msgstr ""
+
+#: of qrmaster.core.qr.QR.wifiData:9
+msgid "The Wi-Fi data to be embedded in the QR code."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:56
+msgid "qrmaster.core.qrmasterpdf module"
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf:1
+msgid "Bases: :py:class:`~fpdf.fpdf.FPDF`"
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf:1
+msgid ""
+"The QrMasterPdf class is a subclass of FPDF that provides custom header "
+"and footer functionality for generating a QR code-related PDF report. It "
+"allows for easy customization of the PDF's header and footer sections, "
+"specifically tailored for QR code projects."
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf:5
+msgid ""
+"Inherits from the FPDF class to leverage basic PDF generation features "
+"while adding custom content."
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf.footer:1
+msgid "Defines the footer content for the PDF document."
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf.footer:3
+msgid ""
+"This method is called automatically when a new page is added. It can be "
+"used to add custom footer elements such as page numbers or other "
+"information at the bottom of the PDF. The footer is displayed on every "
+"page unless overridden."
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf.header:1
+msgid "Defines the header content for the PDF document."
+msgstr ""
+
+#: of qrmaster.core.qrmasterpdf.QrMasterPdf.header:3
+msgid ""
+"This method is called automatically when a new page is added. It can be "
+"used to add custom header elements such as logos, titles, or page numbers"
+" at the top of the PDF. This implementation can be customized as needed "
+"for the QR code project."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:64
+msgid "qrmaster.core.report module"
+msgstr ""
+
+#: of qrmaster.core.report.Report:1
+msgid ""
+"Generates a technical report for the QR code project, including sections "
+"such as title, description, and various other detailed sections about the"
+" QR code, the generated files, and additional metadata."
+msgstr ""
+
+#: of qrmaster.core.report.Report:4
+msgid ""
+"The report is exported to a PDF format, providing a structured and well-"
+"organized output."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addDate:1
+msgid ""
+"Adds the current date to the report in the specified format. This date is"
+" typically included at the top of the report, indicating when the report "
+"was generated."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addDescription:1
+msgid ""
+"Adds the introductory description section to the report. This section "
+"provides context for the report, describing the QR code project and its "
+"purpose."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addIndex:1
+msgid ""
+"Adds an index or table of contents to the report. This section lists the "
+"available sections of the report for easy navigation."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_1:1
+msgid ""
+"Adds the first section to the report, which typically contains details "
+"about the QR code content and its purpose."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_2:1
+msgid ""
+"Adds the second section to the report, which includes details about the "
+"generated files and the output formats."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_3:1
+msgid ""
+"Adds the third section, which describes the parameters used to construct "
+"the QR code and the configuration details."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_4:1
+msgid ""
+"Adds the fourth section, which includes information about the logo "
+"embedded within the QR code."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_5:1
+msgid ""
+"Adds the fifth section, which provides details about the institutional "
+"frame around the QR code. This may include branding or custom frame "
+"elements."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_6:1
+msgid ""
+"Adds the sixth section, which shows the final visualization of the QR "
+"code generated. This is where the actual QR code image is displayed."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_7:1
+msgid ""
+"Adds the seventh section, which offers recommendations on how to use the "
+"QR code. This could include security, accessibility, or functional tips "
+"for the user."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addSection_8:1
+msgid ""
+"Adds the eighth and final section, which includes any final observations "
+"or additional notes regarding the project or the QR code generation "
+"process."
+msgstr ""
+
+#: of qrmaster.core.report.Report.addTitle:1
+msgid ""
+"Adds the title of the report to the PDF, typically at the top of the "
+"first page. The title is styled according to the configuration defined in"
+" the project."
+msgstr ""
+
+#: of qrmaster.core.report.Report.generate:1
+msgid ""
+"Generates the complete technical report in PDF format, including all the "
+"sections defined in the project configuration. Each section is added in a"
+" structured manner, and the report is saved to the specified output path."
+msgstr ""
+
+#: of qrmaster.core.report.Report.generate:5
+msgid ""
+"The sections included depend on the project's configuration and can be "
+"dynamically adjusted."
+msgstr ""
+
+#: of qrmaster.core.report.Report.sectionToInclude:1
+msgid ""
+"Determines if a specific section should be included in the report based "
+"on the method name."
+msgstr ""
+
+#: of qrmaster.core.report.Report.sectionToInclude:3
+msgid "The name of the method corresponding to the section."
+msgstr ""
+
+#: of qrmaster.core.report.Report.sectionToInclude:6
+msgid "True if the section should be included, False otherwise."
+msgstr ""
+
+#: of qrmaster.core.report.Report.setParagraph:1
+msgid ""
+"Sets the paragraph formatting for the report, applying the font and style"
+" defined in the configuration for the general content of the report."
+msgstr ""
+
+#: of qrmaster.core.report.Report.setSubtitle:1
+msgid ""
+"Sets the subtitle formatting and content for the report, based on the "
+"configuration."
+msgstr ""
+
+#: of qrmaster.core.report.Report.setTitle:1
+msgid ""
+"Sets the title formatting and content for the report, applying the "
+"configuration specified in the project's settings."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:72
+msgid "qrmaster.core.schema module"
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:80
+msgid "qrmaster.core.state module"
+msgstr ""
+
+#: of qrmaster.core.state.State:1
+msgid ""
+"The State class is used to manage and track the current state of the QR "
+"code project, including information about generated files, errors, and "
+"configuration. It provides functionality to load, save, and manipulate "
+"state data, making it easier to handle the workflow of QR code generation"
+" and related tasks."
+msgstr ""
+
+#: of qrmaster.core.state.State:6
+msgid ""
+"This class maintains the state in a structured manner, saving relevant "
+"project information in files for later use."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_error:1
+msgid "Adds an error message to the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_error:3
+msgid ""
+"This method records an error encountered during the project execution, "
+"helping to track issues that arise during the workflow."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_error:6
+msgid "The error message to log."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_generated_file:1
+msgid "Adds a generated file to the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_generated_file:3
+msgid ""
+"This method records a file that was generated during the project "
+"workflow, helping to keep track of the files that were created."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_generated_file:6
+msgid "The name of the generated file."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_step:1
+msgid "Adds a step to the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_step:3
+msgid ""
+"This method records a step in the project's workflow, helping to track "
+"the progress of tasks and actions performed."
+msgstr ""
+
+#: of qrmaster.core.state.State.add_step:6
+msgid "A description of the step to add."
+msgstr ""
+
+#: of qrmaster.core.state.State.as_dict:1
+msgid "Returns the state as a dictionary."
+msgstr ""
+
+#: of qrmaster.core.state.State.as_dict:3
+msgid ""
+"This method converts the current state into a dictionary format, making "
+"it easier to inspect or save the state as a serialized object."
+msgstr ""
+
+#: of qrmaster.core.state.State.as_dict:6
+msgid "The current state as a dictionary."
+msgstr ""
+
+#: of qrmaster.core.state.State.get:1
+msgid "Retrieves a value from the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.get:3
+msgid ""
+"This method returns the value associated with the provided key from the "
+"state data. If the key is not found, it returns the specified default "
+"value."
+msgstr ""
+
+#: of qrmaster.core.state.State.get:6
+msgid "The key for the value to retrieve."
+msgstr ""
+
+#: of qrmaster.core.state.State.get:8
+msgid "The default value to return if the key is not found. (default is None)"
+msgstr ""
+
+#: of qrmaster.core.state.State.get:10
+msgid ""
+"The value associated with the key or the default value if the key is not "
+"found."
+msgstr ""
+
+#: of qrmaster.core.state.State.load:1
+msgid "Loads the saved state data from the file."
+msgstr ""
+
+#: of qrmaster.core.state.State.load:3
+msgid ""
+"This method retrieves the state information from persistent storage, "
+"allowing the project to resume from the last saved state."
+msgstr ""
+
+#: of qrmaster.core.state.State.reset_errors:1
+msgid "Resets the error list in the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.reset_errors:3
+msgid ""
+"This method clears all recorded errors, allowing the system to start "
+"fresh or ignore previous errors if needed."
+msgstr ""
+
+#: of qrmaster.core.state.State.save:1
+msgid "Saves the current state data to a file."
+msgstr ""
+
+#: of qrmaster.core.state.State.save:3
+msgid ""
+"This method writes the current state information to a file so that it can"
+" be restored later if needed."
+msgstr ""
+
+#: of qrmaster.core.state.State.setWorkspace:1
+msgid "Sets the workspace directory for the project."
+msgstr ""
+
+#: of qrmaster.core.state.State.setWorkspace:3
+msgid ""
+"This method updates the state with the location of the workspace, "
+"allowing the system to track where project-related files are stored."
+msgstr ""
+
+#: of qrmaster.core.state.State.setWorkspace:6
+msgid "The workspace directory path."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_current_file:1
+msgid "Sets the current file being processed in the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_current_file:3
+msgid ""
+"This method updates the state with the current file, allowing the system "
+"to track which file is being worked on."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_current_file:6
+msgid "The name of the current file."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_frame:1
+msgid "Sets the frame file in the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_frame:3
+msgid ""
+"This method stores information about the frame file used in the project, "
+"helping to manage and track its status."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_frame:6
+msgid "The name of the frame file."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_last_run_now:1
+msgid "Sets the last run timestamp to the current time."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_last_run_now:3
+msgid ""
+"This method updates the state to record the current time as the last run "
+"time of the project. It helps track when the project was last executed."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_pdf:1
+msgid "Sets the path for the generated PDF file in the state."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_pdf:3
+msgid ""
+"This method updates the state with the path to the generated PDF, "
+"allowing the system to track where the final output file is stored."
+msgstr ""
+
+#: of qrmaster.core.state.State.set_pdf:6
+msgid "The file path for the generated PDF."
+msgstr ""
+
+#: ../../source/qrmaster.core.rst:88
+msgid "Module contents"
+msgstr ""
+

@@ -1,0 +1,115 @@
+HOW TO RUN
+==========
+
+Run
+---
+
+.. code:: python
+
+     python3 qrmaster.py generate --options options.json
+
+Configuration File (options.json)
+---------------------------------
+
+The configuration file (options.json) defines the settings for
+generating the QR code and reports. An example configuration file looks
+like this:
+
+.. code:: json
+
+   {
+     "project": {
+       "name": "client",
+       "content": {
+         "type": "url",
+         "data" : {
+           "url": "https://github.com/remizero/qrmaster"
+         }
+       },
+       "output": {
+         "formats": [ "svg", "png", "pdf" ],
+         "params": {
+           "scale": 10,
+           "border": 5,
+           "unit": "px",
+           "dark": "black"
+         }
+       },
+       "frame": {
+         "margin": 10,
+         "text_height": 60,
+         "background_color": "white",
+         "border_color": "#005baa",
+         "border_width": 4,
+         "title": "QRMaster Project.",
+         "title_font_size": 16,
+         "title_font_family": "Arial",
+         "title_color": "#005baa",
+         "message": "Scan to view the document.",
+         "message_font_size": 12,
+         "message_color": "#555"
+       },
+       "pdf": {
+         "title": "QR code to view the document.",
+         "title_font": "Arial",
+         "title_size": 16,
+         "title_style": "B",
+         "info_font": "Arial",
+         "info_size": 12,
+         "include_date": true,
+         "date_format": "%d/%m/%Y",
+         "document_name": "QRMaster Project.",
+         "image_path": "qr_logo_institutional_full.png",
+         "image_width": 200,
+         "image_x": 5,
+         "image_y": 60,
+         "output_name": "Print.pdf"
+       },
+       "art": {},
+       "report": {
+         "metadata":{
+           "author" : "author",
+           "title" : "Informe técnico del proyecto Código QR",
+           "subject" : "Technical report on creating a QR code",
+           "keywords" : "QR Code",
+           "creator" : "QRMaster based on Segno"
+         },
+         "include_date": true,
+         "date_format": "%d/%m/%Y",
+         "title" : {
+           "font": "Arial",
+           "size": 24,
+           "style": "B"
+         },
+         "subtitle" : {
+           "font": "Arial",
+           "size": 16,
+           "style": "B"
+         },
+         "paragraph" : {
+           "font": "Arial",
+           "size": 12,
+           "style": ""
+         },
+         "header" : {
+           "color": [40, 40, 80],
+           "company_name": "Company Name.",
+           "company_logo": "logo.png"
+         },
+         "footer" : {
+           "color": [40, 40, 80],
+           "contact": "info@company.com",
+           "website": "http:://www.company.com",
+           "social": {
+             "linkedin" : "@company",
+             "facebook" : "@company",
+             "instagram" : "@company",
+             "X" : "@company",
+             "youtube" : "@company",
+             "github" : "@company",
+             "gitlab" : "@company"
+           }
+         }
+       }
+     }
+   }

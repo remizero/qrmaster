@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/INSTALL.rst:2
+msgid "HOW TO INSTALL"
+msgstr ""
+
+#: ../../source/INSTALL.rst:4
+msgid ""
+"The installation process presented here is only applicable to Linux "
+"platforms. It has not been tested on other platforms, but you are free to"
+" port this application to any platform you need and can report and "
+"contribute any modifications to be included in the project."
+msgstr ""
+
+#: ../../source/INSTALL.rst:10
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/INSTALL.rst:12
+msgid "Python 3.x"
+msgstr ""
+
+#: ../../source/INSTALL.rst:13
+msgid "pip (Python package installer)"
+msgstr ""
+
+#: ../../source/INSTALL.rst:14
+msgid "cairosvg"
+msgstr ""
+
+#: ../../source/INSTALL.rst:15
+msgid "fpdf"
+msgstr ""
+
+#: ../../source/INSTALL.rst:16
+msgid "jsonschema"
+msgstr ""
+
+#: ../../source/INSTALL.rst:17
+msgid "pixels2svg"
+msgstr ""
+
+#: ../../source/INSTALL.rst:18
+msgid "segno"
+msgstr ""
+
+#: ../../source/INSTALL.rst:19
+msgid "svgutils"
+msgstr ""
+
+#: ../../source/INSTALL.rst:20
+msgid "svgwrite"
+msgstr ""
+
+#: ../../source/INSTALL.rst:23
+msgid "Via PyPI"
+msgstr ""
+
+#: ../../source/INSTALL.rst:30
+msgid "Via source"
+msgstr ""
+
+#: ../../source/INSTALL.rst:33
+msgid "Download"
+msgstr ""
+
+#: ../../source/INSTALL.rst:40
+msgid "Install"
+msgstr ""
+
+#: ../../source/INSTALL.rst:43
+msgid "Virtual Environment"
+msgstr ""
+
+#: ../../source/INSTALL.rst:45
+msgid "To create the virtual environment."
+msgstr ""
+
+#: ../../source/INSTALL.rst:53
+msgid "Install Dependencies"
+msgstr ""
+
+#: ../../source/INSTALL.rst:55
+msgid "To install the required dependencies, run the following command:"
+msgstr ""
+

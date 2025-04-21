@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/qrmaster.utils.rst:2
+msgid "qrmaster.utils package"
+msgstr ""
+
+#: ../../source/qrmaster.utils.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/qrmaster.utils.rst:8
+msgid "qrmaster.utils.svg\\_utils module"
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils:1 qrmaster.utils.utils.Utils:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils:1
+msgid ""
+"The SvgUtils class provides utility methods for working with SVG files. "
+"This includes methods to embed one SVG into another and save the "
+"resulting SVG."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:1
+msgid "Embeds an SVG file into another SVG file and saves the resulting SVG."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:3
+msgid ""
+"This method takes two SVG files: a base SVG and an insert SVG. The insert"
+" SVG will be embedded into the base SVG, and the resulting SVG will be "
+"saved to the specified output path."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg
+#: qrmaster.utils.utils.Utils.convertToPixels
+#: qrmaster.utils.utils.Utils.createPdf qrmaster.utils.utils.Utils.fileInfo
+#: qrmaster.utils.utils.Utils.svgIntoFrame
+#: qrmaster.utils.utils.Utils.svgIntoSvg qrmaster.utils.utils.log_step
+msgid "Parameters"
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:7
+msgid "The file path of the base SVG file where the insert SVG will be embedded."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:9
+msgid "The file path of the SVG file to be embedded into the base SVG."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:11
+msgid ""
+"The file path where the resulting SVG with the embedded insert SVG will "
+"be saved."
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg
+#: qrmaster.utils.utils.Utils.convertToPixels
+#: qrmaster.utils.utils.Utils.createPdf qrmaster.utils.utils.Utils.fileInfo
+#: qrmaster.utils.utils.Utils.svgIntoFrame
+#: qrmaster.utils.utils.Utils.svgIntoSvg qrmaster.utils.utils.log_step
+msgid "Returns"
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:14
+#: qrmaster.utils.utils.Utils.createPdf:13
+#: qrmaster.utils.utils.Utils.svgIntoFrame:13
+#: qrmaster.utils.utils.Utils.svgIntoSvg:13
+msgid "None"
+msgstr ""
+
+#: of qrmaster.utils.svg_utils.SvgUtils.embed_svg:16
+msgid ""
+"This method modifies the base SVG file by embedding the contents of the "
+"insert SVG into it."
+msgstr ""
+
+#: ../../source/qrmaster.utils.rst:16
+msgid "qrmaster.utils.utils module"
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils:1
+msgid ""
+"The Utils class provides various utility methods that perform tasks like "
+"creating PDFs, handling SVG files, and converting measurements. These "
+"methods are designed to simplify common operations in the project."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:1
+msgid "Converts a measurement in various units (e.g., mm, cm) to pixels."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:3
+msgid ""
+"This method takes a measurement and converts it to pixels based on the "
+"configured unit system and scale."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:6
+msgid "The measurement to convert, in any valid unit (e.g., mm, cm)."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:8
+msgid "The converted measurement in pixels."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels
+#: qrmaster.utils.utils.Utils.fileInfo qrmaster.utils.utils.log_step
+msgid "Return type"
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:12
+#: qrmaster.utils.utils.Utils.fileInfo:13 qrmaster.utils.utils.log_step:15
+msgid "Example"
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.convertToPixels:13
+msgid ""
+"100 mm would return 283.46 pixels (assuming a scale of 2.83 pixels per "
+"mm)."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:1
+msgid ""
+"Creates a PDF file with the given configuration and inserts an image into"
+" it."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:3
+msgid ""
+"This method generates a PDF document based on the provided configuration "
+"and inserts an image at the specified location."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:6
+msgid "A dictionary containing PDF generation settings (e.g., title, size)."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:8
+msgid "The file path to the image to be inserted into the PDF."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:10
+msgid "The file path where the resulting PDF will be saved."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.createPdf:15
+msgid ""
+"This method creates a PDF file with the specified configuration and "
+"includes the image."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.fileInfo:1
+msgid ""
+"Retrieves information about a file, such as its size and modification "
+"date."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.fileInfo:3
+msgid ""
+"This method collects basic metadata about a file, including its size, "
+"last modified date, and other relevant details."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.fileInfo:6
+msgid "The file path to retrieve information for."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.fileInfo:9
+msgid "A dictionary containing file metadata such as size and modification date."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.fileInfo:14
+#, python-brace-format
+msgid "{'size': 1024, 'last_modified': '2025-04-20 15:30:00'}"
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:1
+msgid "Embeds a QR code SVG into a frame SVG."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:3
+msgid ""
+"This method combines a QR code SVG with a frame SVG, inserting the QR "
+"code at a specified position within the frame, and saves the resulting "
+"SVG to the output path."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:6
+msgid "The file path of the frame SVG."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:8
+msgid "The file path of the QR code SVG to be embedded."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:10
+#: qrmaster.utils.utils.Utils.svgIntoSvg:10
+msgid "The file path where the resulting SVG will be saved."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoFrame:15
+msgid "This method creates a new SVG by inserting the QR code into the frame."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoSvg:1
+msgid "Embeds one SVG into another as a logo."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoSvg:3
+msgid ""
+"This method takes a background SVG and an SVG logo, embedding the logo "
+"into the background SVG at a specified location and saves the resulting "
+"SVG to the output file path."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoSvg:6
+msgid "The file path of the background SVG."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoSvg:8
+msgid "The file path of the logo SVG to be embedded into the background."
+msgstr ""
+
+#: of qrmaster.utils.utils.Utils.svgIntoSvg:15
+msgid ""
+"This method creates a new SVG by combining the background SVG with the "
+"logo SVG."
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:1
+msgid ""
+"A decorator function that logs the execution of a method with a specified"
+" name."
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:3
+msgid ""
+"This decorator wraps a function and logs its execution step, providing "
+"the specified name for the log entry. It is typically used to track the "
+"progress of various steps in a process or workflow."
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:7
+msgid ""
+"The name of the step being logged. If not provided, the function name "
+"will be used."
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:11
+msgid "A wrapper function that logs the execution of the decorated method."
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:16
+msgid "@log_step(\"Step Name\") def some_method():"
+msgstr ""
+
+#: of qrmaster.utils.utils.log_step:18
+msgid "pass"
+msgstr ""
+
+#: ../../source/qrmaster.utils.rst:24
+msgid "Module contents"
+msgstr ""
+

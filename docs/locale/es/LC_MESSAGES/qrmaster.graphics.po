@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/qrmaster.graphics.rst:2
+msgid "qrmaster.graphics package"
+msgstr ""
+
+#: ../../source/qrmaster.graphics.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/qrmaster.graphics.rst:8
+msgid "qrmaster.graphics.frame module"
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame:1 qrmaster.graphics.logo.Logo:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame:1
+msgid ""
+"Handles the creation and embedding of frames around QR codes. Provides "
+"methods for creating a frame around the QR code and embedding it with "
+"specified attributes."
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame.create:1
+msgid "Creates a frame around the QR code."
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame.create:3
+msgid ""
+"This method generates a frame around the QR code, setting the margins, "
+"colors, and other styling options as specified in the configuration, and "
+"positions the QR code within the frame."
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame.embed:1
+msgid "Embeds the created frame into the QR code."
+msgstr ""
+
+#: of qrmaster.graphics.frame.Frame.embed:3
+msgid ""
+"This method inserts the previously created frame into the QR code image, "
+"ensuring the frame is correctly positioned and adjusted to fit the QR "
+"code's dimensions."
+msgstr ""
+
+#: ../../source/qrmaster.graphics.rst:16
+msgid "qrmaster.graphics.logo module"
+msgstr ""
+
+#: of qrmaster.graphics.logo.Logo:1
+msgid ""
+"Handles the embedding and conversion of logos for QR codes. Provides "
+"methods for embedding logos into QR codes and converting PNG logos to SVG"
+" format."
+msgstr ""
+
+#: of qrmaster.graphics.logo.Logo.embed:1
+msgid "Embeds a logo into the QR code."
+msgstr ""
+
+#: of qrmaster.graphics.logo.Logo.embed:3
+msgid ""
+"This method inserts the provided logo into the QR code, adjusting its "
+"size and position based on the QR code's dimensions and the logo's "
+"properties."
+msgstr ""
+
+#: of qrmaster.graphics.logo.Logo.pngToSvg:1
+msgid "Converts a PNG logo file to SVG format."
+msgstr ""
+
+#: of qrmaster.graphics.logo.Logo.pngToSvg:3
+msgid ""
+"This method converts a PNG image to SVG format for use in QR code "
+"embedding or other applications."
+msgstr ""
+
+#: ../../source/qrmaster.graphics.rst:24
+msgid "Module contents"
+msgstr ""
+

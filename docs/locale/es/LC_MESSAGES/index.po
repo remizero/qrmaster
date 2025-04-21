@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/index.rst:47
+msgid "Contents:"
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "QRMaster: A Flexible QR Code Generator – v1.0.0"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid ""
+"QRMaster is a modular and extensible tool designed for creating and "
+"customizing QR codes with various content types, including URLs, email "
+"addresses, WiFi credentials, geolocation data, meCard, vCard, EPC, and "
+"more."
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid ""
+"Built on top of the powerful **Segno** QR code generator library, "
+"QRMaster provides a developer-friendly experience with a clean "
+"architecture, centralized configuration, and advanced output "
+"capabilities. It is ideal for technical users, designers, and developers "
+"who need precision, automation, and professional output for both digital "
+"and printed QR code assets."
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid ""
+"Whether you're creating a single code or batch-generating hundreds with "
+"metadata, QRMaster is built to scale with your workflow."
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "Features"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid ""
+"✅ Generate QR codes for multiple data types: URLs, email, WiFi, geo, "
+"vCard, meCard, EPC, and more."
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "🖼️ Output in multiple formats: SVG, PNG, and printable PDF."
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid ""
+"🎨 Fully customizable QR designs: control scale, border, color, "
+"background, and quiet zones."
+msgstr ""
+
+#: ../../source/index.rst:21
+msgid ""
+"🧩 Supports embedded logos, style layering, custom frames, and metadata "
+"injection."
+msgstr ""
+
+#: ../../source/index.rst:22
+msgid ""
+"📄 Generates ready-to-print PDF sheets and detailed technical "
+"documentation."
+msgstr ""
+
+#: ../../source/index.rst:23
+msgid "⚙️ CLI-first approach with centralized `JSON` configuration support."
+msgstr ""
+
+#: ../../source/index.rst:24
+msgid ""
+"📦 Packaged for Python distribution: installable via `pip`, usable as a "
+"command-line tool or importable module."
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "🔧 Built for modularity, testability, and clean separation of concerns."
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "Quickstart"
+msgstr ""
+
+#: ../../source/index.rst:30
+msgid ""
+"To get started, install the package, prepare your `options.json` file, "
+"and run:"
+msgstr ""
+
+#: ../../source/index.rst:36
+msgid ""
+"For full usage details, examples, and reference, see the accompanying "
+"pages:"
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid ":doc:`CONFIG <CONFIG>`"
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid ":doc:`EXAMPLES <EXAMPLES>`"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid ":doc:`INSTALL <INSTALL>`"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid ":doc:`RUN <RUN>`"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid "Explore. Customize. Generate."
+msgstr ""
+

@@ -38,7 +38,7 @@ python main.py validate --config path/to/config.json
 To view the logs:
 
 ```bash
-python main.py viewLog --path path/to/logfile.log
+python main.py view-log --path path/to/logfile.log
 ```
 
 
@@ -68,7 +68,7 @@ python cli.py view-log --path projects/qr_evento/state.log --tail 20
 To clear the logs:
 
 ```bash
-python main.py clearLog --path path/to/logfile.log
+python main.py clear-log --path path/to/logfile.log
 ```
 
 

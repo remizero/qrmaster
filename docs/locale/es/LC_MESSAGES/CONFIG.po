@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/CONFIG.rst:2
+msgid "CONFIG.md"
+msgstr "CONFIG.md"
+
+#: ../../source/CONFIG.rst:5
+msgid "Configuration File Reference (``options.json``)"
+msgstr "Referencia del archivo de configuración (``options.json``)"
+
+#: ../../source/CONFIG.rst:7
+msgid ""
+"This document provides a complete and detailed overview of the structure,"
+" valid values, and usage of the ``options.json`` configuration file used "
+"by QRMaster. This file allows full control over the behavior and outcome "
+"of the QR code generation process. The file must be a valid JSON object "
+"and is required for most of the application’s commands. The application "
+"has an options.json file validation command that will allow you to check "
+"its validity."
+msgstr ""
+"Este documento proporciona una descripción general completa y detallada de la estructura, "
+"los valores válidos y el uso del archivo de configuración ``options.json`` utilizado por "
+"QRMaster. Este archivo permite un control total sobre el comportamiento y el resultado del "
+"proceso de generación de códigos QR. El archivo debe ser un objeto JSON válido y es necesario "
+"para la mayoría de los comandos de la aplicación. La aplicación cuenta con un comando de "
+"validación del archivo ``options.json`` que permite comprobar su validez."
+
+#: ../../source/CONFIG.rst:15
+msgid "To validate the configuration file, access this link."
+msgstr "Para validar el archivo de configuración, acceda a este enlace."
+
+#: ../../source/CONFIG.rst:20
+msgid "📁 Root Structure"
+msgstr "📁 Estructura de la raíz"
+
+#: ../../source/CONFIG.rst:22
+msgid "The root of the configuration contains a single key:"
+msgstr ""
+
+#: ../../source/CONFIG.rst:42
+msgid "🔹 ``project`` (object) - **Required**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:44
+msgid ""
+"This is the main container for the project settings. It includes all the "
+"necessary configurations for content, output, design, and document "
+"generation."
+msgstr ""
+
+#: ../../source/CONFIG.rst:49
+msgid "``project.name`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:51
+msgid "Name of the project used to define directories and output files."
+msgstr ""
+
+#: ../../source/CONFIG.rst:53 ../../source/CONFIG.rst:84
+#: ../../source/CONFIG.rst:115 ../../source/CONFIG.rst:143
+msgid "**Example**:"
+msgstr ""
+
+#: ../../source/CONFIG.rst:62
+msgid "🔸 ``content`` (object) - **Required**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:64
+msgid "Specifies the QR content to be encoded."
+msgstr ""
+
+#: ../../source/CONFIG.rst:67 ../../source/CONFIG.rst:139
+#: ../../source/CONFIG.rst:161 ../../source/CONFIG.rst:186
+msgid "Fields:"
+msgstr ""
+
+#: ../../source/CONFIG.rst:69
+msgid "``type`` (string): Type of content"
+msgstr ""
+
+#: ../../source/CONFIG.rst:71
+msgid "**Allowed values:**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:73
+msgid "``\"url\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:74
+msgid "``\"text\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:75
+msgid "``\"email\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:76
+msgid "``\"wifi\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:77
+msgid "``\"geo\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:78
+msgid "``\"mecard\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:79
+msgid "``\"vcard\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:80
+msgid "``\"epc\"``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:82
+msgid "``data`` (object): Specific fields based on content type"
+msgstr ""
+
+#: ../../source/CONFIG.rst:98
+msgid "🖨️ ``output`` (object) - **Optional**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:100
+msgid "Defines the output formats and styling parameters."
+msgstr ""
+
+#: ../../source/CONFIG.rst:103
+msgid "``formats`` (array of strings)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:105
+msgid "List of formats to export: ``svg``, ``png``, ``pdf``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:108
+msgid "``params`` (object)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:110
+msgid "``scale`` (number): Size scaling factor"
+msgstr ""
+
+#: ../../source/CONFIG.rst:111
+msgid "``border`` (int): Border size in modules"
+msgstr ""
+
+#: ../../source/CONFIG.rst:112
+msgid "``unit`` (string): Output unit (e.g., ``px``, ``mm``)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:113
+msgid "``dark`` (string): Dark color of the QR code"
+msgstr ""
+
+#: ../../source/CONFIG.rst:132
+msgid "🖼️ ``logo`` (object) - **Optional**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:134
+msgid "Defines the options for embedding a logo into the QR code."
+msgstr ""
+
+#: ../../source/CONFIG.rst:141
+msgid "``path`` (string): path to image file."
+msgstr ""
+
+#: ../../source/CONFIG.rst:154
+msgid "🖼️ ``frame`` (object) - **Optional**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:156
+msgid "Defines the visual frame surrounding the QR code."
+msgstr ""
+
+#: ../../source/CONFIG.rst:163
+msgid "``margin`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:164
+msgid "``text_height`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:165
+msgid "``background_color`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:166
+msgid "``border_color`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:167
+msgid "``border_width`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:168
+msgid "``title`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:169
+msgid "``title_font_size`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:170
+msgid "``title_font_family`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:171
+msgid "``title_color`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:172
+msgid "``message`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:173
+msgid "``message_font_size`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:174
+msgid "``message_color`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:179
+msgid "📄 ``pdf`` (object) - **Optional**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:181
+msgid "Defines the layout and content of the generated printable PDF."
+msgstr ""
+
+#: ../../source/CONFIG.rst:188
+msgid "``title``, ``subtitle``, ``document_name`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:189
+msgid "``title_font``, ``info_font`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:190
+msgid "``title_size``, ``info_size`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:191
+msgid "``title_style`` (string): e.g., ``B``, ``I``, ``U``"
+msgstr ""
+
+#: ../../source/CONFIG.rst:192
+msgid "``include_date`` (bool)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:193
+msgid "``date_format`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:194
+msgid "``image_path`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:195
+msgid "``image_width``, ``image_x``, ``image_y`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:196
+msgid "``output_name`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:201
+msgid "🖌️ ``art`` (object) - *Reserved for future artistic customization*"
+msgstr ""
+
+#: ../../source/CONFIG.rst:203
+msgid "Currently unused."
+msgstr ""
+
+#: ../../source/CONFIG.rst:208
+msgid "📊 ``report`` (object) - **Optional**"
+msgstr ""
+
+#: ../../source/CONFIG.rst:210
+msgid "Settings for the generation of a technical PDF report."
+msgstr ""
+
+#: ../../source/CONFIG.rst:213
+msgid "``metadata`` (object)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:215
+msgid "``author``, ``title``, ``subject``, ``keywords``, ``creator`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:219
+msgid "``include_date`` (bool), ``date_format`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:222
+msgid "``title``, ``subtitle``, ``paragraph`` (objects)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:224
+msgid "``font`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:225
+msgid "``size`` (int)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:226
+msgid "``style`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:229
+msgid "``header`` (object)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:231 ../../source/CONFIG.rst:238
+msgid "``color`` ([R, G, B])"
+msgstr ""
+
+#: ../../source/CONFIG.rst:232
+msgid "``company_name`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:233
+msgid "``company_logo`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:236
+msgid "``footer`` (object)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:239
+msgid "``contact`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:240
+msgid "``website`` (string)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:241
+msgid ""
+"``social`` (object): Contains social network handles (e.g., ``linkedin``,"
+" ``facebook``, ``github``, etc.)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:247
+msgid "✅ Notes"
+msgstr ""
+
+#: ../../source/CONFIG.rst:249
+msgid ""
+"All string color values must be valid CSS-compatible color formats "
+"(``#RRGGBB``, ``black``, etc.)"
+msgstr ""
+
+#: ../../source/CONFIG.rst:251
+msgid "Dates use Python-compatible ``strftime`` formats."
+msgstr ""
+
+#: ../../source/CONFIG.rst:256
+msgid "📌 Example Snippet"
+msgstr ""
+
+#: ../../source/CONFIG.rst:272
+msgid "\\``\\`"
+msgstr ""
+

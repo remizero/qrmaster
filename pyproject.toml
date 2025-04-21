@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrmaster"
+version = "1.0.0"
+description = "A flexible and customizable QR code generator powered by Segno"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name="Filiberto Zaá Avila - remizero", email="filizaa@gmail.com" }
+]
+dependencies = [
+  "cairosvg",
+  "fpdf",
+  "jsonschema",
+  "pillow",
+  "pixels2svg",
+  "segno",
+  "svgutils",
+  "svgwrite"
+]
+
+[project.urls]
+Homepage = "https://github.com/remizero/qrmaster"
+Documentation = "https://remizero.github.io/qrmaster/"
+Repository = "https://github.com/remizero/qrmaster"
+Changelog = "https://github.com/remizero/qrmaster/blob/main/CHANGELOG.md"

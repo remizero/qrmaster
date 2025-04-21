@@ -3,17 +3,10 @@
 The installation process presented here is only applicable to Linux platforms. It has not been tested on other platforms, but you are free to port this application to any platform you need and can report and contribute any modifications to be included in the project.
 
 
-## Download
-```bash
- git clone https://github.com/remizero/qrmaster.git
-```
-
-
 ## Requirements
 
 - Python 3.x
 - pip (Python package installer)
-- argparse
 - cairosvg
 - fpdf
 - jsonschema
@@ -23,10 +16,25 @@ The installation process presented here is only applicable to Linux platforms. I
 - svgwrite
 
 
-## Install
+## Via PyPI
+
+```bash
+pip install qrmaster
+```
 
 
-### Virtual Environment
+## Via source
+
+### Download
+```bash
+ git clone https://github.com/remizero/qrmaster.git
+```
+
+
+### Install
+
+
+#### Virtual Environment
 
 To create the virtual environment.
 
@@ -36,7 +44,7 @@ To create the virtual environment.
 ```
 
 
-### Install Dependencies
+#### Install Dependencies
 
 To install the required dependencies, run the following command:
 

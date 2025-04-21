@@ -1,0 +1,19 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include INSTALL.md
+include RUN.md
+include TODO.md
+include CONFIG.md
+include EXAMPLES.md
+include USAGE.md
+
+recursive-include docs *
+recursive-include qrmaster *.json
+recursive-include qrmaster *.png
+recursive-include qrmaster *.svg
+recursive-include qrmaster *.pdf
+recursive-include qrmaster *.ttf
+recursive-include qrmaster *.otf
+
+global-exclude __pycache__ *.py[cod]

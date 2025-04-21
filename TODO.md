@@ -15,6 +15,9 @@ This file lists the remaining tasks and features to be implemented in QRMaster.
 - [ ] Improve error handling for invalid input.
 - [ ] Optimize performance for large QR codes.
 - [ ] Artistic Mode. Allows you to add background images to the QR code, both static (for printing) and moving (for the web).
+- [ ] Add full support for parameters specific to each exportable file type.
+- [ ] Add support for the Segno-enabled color module. [Segno module-colors](https://segno.readthedocs.io/en/stable/api.html#module-colors)
+- [ ] Add support for the Segno-enabled common keywords [Segno common-keywords](https://segno.readthedocs.io/en/stable/api.html#common-keywords)
 
 
 ## Documentation

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Filiberto Zaá Avila
+# This file is distributed under the same license as the QRMaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QRMaster \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-20 21:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/EXAMPLES.rst:2
+msgid "Examples for ``options.json``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:4
+msgid ""
+"This file contains a set of example configurations for QRMaster’s "
+"``options.json`` file. These examples illustrate how to use different "
+"features and combinations of options to generate QR codes tailored to "
+"your needs."
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:12
+msgid "📦 Basic Example (Minimal Configuration)"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:28
+msgid ""
+"This configuration generates a basic QR code pointing to a URL and saves "
+"it in SVG format."
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:34
+msgid "⚙️ Advanced Example (Multiple Formats and Style)"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:76
+msgid ""
+"This example includes style customization and frame configuration along "
+"with multiple output formats."
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:82
+msgid "🧩 Full Configuration Example (All Optional Nodes and Content Variants)"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:190
+msgid "📂 Content Type Variants"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:192
+msgid "Each of the following examples uses a different content type:"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:195
+msgid "1. ``url``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:207
+msgid "2. ``email``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid ""
+"ℹ️ **Note**: To learn about all the parameters available for this type of"
+" content, please refer to the official Segno documentation:"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_make_email_data"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:227
+msgid "3. ``wifi``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_wifi_data"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:248
+msgid "4. ``geo``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_geo_data"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:267
+msgid "5. ``mecard``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_mecard_data"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:288
+msgid "6. ``vcard``"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_vcard_data"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:312
+msgid "7. ``epc`` (SEPA QR for payments)"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst
+msgid "https://segno.readthedocs.io/en/stable/api.html#segno.helpers.make_epc_qr"
+msgstr ""
+
+#: ../../source/EXAMPLES.rst:335
+msgid ""
+"You can combine any of these content types with the features demonstrated"
+" in the basic or advanced examples."
+msgstr ""
+
